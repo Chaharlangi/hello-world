@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css?family=Signika&display=swap");
+body {
+  font-family: 'Signika', sans-serif;
+  text-align: right;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .navbarImg img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .pic {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+header .pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .contact {
+  width: 50%;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .contact h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+header .contact p {
+  opacity: .7;
+  font-size: 20px;
+}
+
+.cards {
+  padding-top: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+  margin: 10px;
+  width: 30%;
+  height: 400px;
+}
+
+.cards .card .picCard {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.cards .card .picCard img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cards .card a {
+  padding: 10px 0;
+  font-size: 25px;
+  color: #d60887;
+}
+
+.cards .card a:hover {
+  text-decoration: none;
+  color: palevioletred;
+}
+
+.cards .card p {
+  opacity: .7;
+  text-align: left;
+}
+
+.Introduction {
+  padding: 150px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Introduction .imageTop {
+  width: 30%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.Introduction .imageTop img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Introduction .text {
+  width: 35%;
+  padding: 50px;
+  text-align: left;
+}
+
+.Introduction .text h1 {
+  color: #d60887;
+}
+
+.Introduction .text p {
+  opacity: .7;
+  font-size: 18px;
+}
+
+.Introduction .imageDown {
+  width: 30%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.Introduction .imageDown img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Necessity {
+  padding-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Necessity .blog {
+  margin: 20px;
+  width: 25%;
+}
+
+.Necessity .blog img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Necessity .blog h3 {
+  color: #d60887;
+  padding: 10px 0;
+}
+
+.Necessity .blog p {
+  opacity: .7;
+}
+
+.Register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.Register .formImg {
+  width: 50%;
+}
+
+.Register .formImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Register .formList {
+  width: 50%;
+  padding: 0 50px;
+}
+
+footer {
+  background: #212129;
+}
+
+footer .footerStyle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+footer .footerStyle .socil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footerStyle .socil a {
+  padding: 0 10px;
+}
+
+footer .footerStyle .socil a img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer .footerStyle .link a {
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #a8a7a7;
+}
+
+footer .footerStyle .link a:hover {
+  text-decoration: none;
+  color: #d60887;
+}
+
+@media screen and (max-width: 568px) {
+  .Necessity .blog {
+    width: 100% !important;
+    border-bottom: 1px solid #d60887;
+  }
+  footer {
+    padding: 30px 0;
+    height: 150px;
+  }
+  footer .footerStyle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footerStyle .socil img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .pic {
+    width: 100%;
+  }
+  header .contact {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .contact h1 {
+    padding: 0 20px;
+    font-size: 35px;
+  }
+  header .contact p {
+    padding: 0 20px;
+  }
+  .cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Introduction {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Introduction .imageTop {
+    display: none;
+  }
+  .Introduction .text {
+    width: 100% !important;
+  }
+  .Introduction .imageDown {
+    width: 100% !important;
+  }
+  .Necessity .blog {
+    width: 40%;
+  }
+  .Register {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Register .formImg {
+    width: 100%;
+  }
+  .Register .formList {
+    width: 100% !important;
+    padding: 50px;
+  }
+  footer {
+    padding: 40px 0;
+    height: 150px;
+  }
+  footer .footerStyle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footerStyle .socil img {
+    width: 35px !important;
+    height: 35px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Introduction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Introduction .imageTop {
+    display: none;
+  }
+  .Introduction .text {
+    width: 50%;
+  }
+  .Introduction .imageDown {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
